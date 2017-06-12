@@ -119,7 +119,7 @@ article .table {
     article .table .one ul {
       width: 33%; }
       article .table .one ul#plane {
-        background: url(img/t48tn619150859.png); }
+        background: url(../img/t48tn619150859.png); }
       article .table .one ul li {
         height: 40px;
         width: 100%;
@@ -130,7 +130,7 @@ article .table {
         color: white;
         margin-bottom: 0.1rem; }
       article .table .one ul li:not(.aa) {
-        background: url(img/fz4l4220151302.png); }
+        background: url(../img/fz4l4220151302.png); }
   article .table .two {
     width: 100%;
     margin-top: 0.1rem; }
@@ -146,7 +146,7 @@ article .table {
         height: 40px;
         line-height: 40px;
         width: 33%;
-        background: url(img/h8vr2020151218.png); }
+        background: url(../img/h8vr2020151218.png); }
   article .table .three {
     margin-top: 0.1rem;
     width: 100%;
@@ -155,7 +155,7 @@ article .table {
     article .table .three ul {
       width: 33%; }
       article .table .three ul#plane {
-        background: url(img/4v824b19151417.png); }
+        background: url(../img/4v824b19151417.png); }
       article .table .three ul li {
         height: 40px;
         width: 100%;
@@ -166,7 +166,7 @@ article .table {
         color: white;
         margin-bottom: 0.1rem; }
       article .table .three ul li:not(.aa) {
-        background: url(img/20hf6v20150952.png); }
+        background: url(../img/20hf6v20150952.png); }
 
 .news {
   border-bottom: 1px solid #ccc;
@@ -222,7 +222,7 @@ article .table {
       height: 90px;
       line-height: 90px;
       border-radius: 1rem;
-      background-image: url(img/13.jpg);
+      background-image: url(../img/13.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%; }
     .visa-in ul .b {
@@ -294,7 +294,7 @@ article .table {
     width: 100%;
     height: 200px;
     margin: 1rem 0rem;
-    background-image: url(img/thd6vb22173921.jpg);
+    background-image: url(../img/thd6vb22173921.jpg);
     background-size: 100% 100%; }
     .life #outdoor p {
       z-index: 99;
@@ -342,7 +342,7 @@ article .table {
     width: 100%;
     height: 200px;
     margin: 1rem 0rem;
-    background-image: url(img/t026dn06181610.jpg);
+    background-image: url(../img/t026dn06181610.jpg);
     background-size: 100% 100%; }
     .life #outdoor2 p {
       z-index: 99;
