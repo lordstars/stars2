@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    ul{
+       display: flex;
+        justify-content: space-around;
+        padding: 0rem 10rem; 
+        li{
+            list-style: none;
+            font-size: 2rem;
+            font-weight: bold;
+            &:hover{
+                color: red;
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+}
+.content{
+    width: 100%;
+    height: 90%;
+    flex-grow: 1;
+   
+    position: relative;
+    .content1{
+        width: 100%;
+        height: 100%;
+         overflow: hidden;
+         overflow: auto;
+         position: absolute;
+    }
+    .content:nth-child(2){
+        transform: translateX(100%);
+    }
+}
+.search{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background: gainsboro;
+    text-align: center;
+    input{
+        
+        width: 80%;
+        height: 2.5rem;
+        font-size: 1.7rem;
+        padding-left: 3rem;
+        border-radius: 3rem;
+        border: none;
+    }
+}
+.banner{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+.details{
+    position: relative;
+    width: 100%;
+    .tu{
+        display: flex;
+        img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        margin-left: 3rem;
+        z-index: 99;
+    }
+    p{
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    }
+    
+    .tu2{
+        width: 100%;
+        margin-top: -1.8rem;
+        img{
+            width: 100%;
+        }
+    }
+    p{
+        font-size: 1.8rem;
+        padding: 2rem;
+    }
+}
+.empty{
+    width: 100%;
+    height: 4rem;
+    background: lightgray;
+}
+.banner2{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    li{
+        list-style: none;
+        text-align: center;
+        padding-left: 1rem;
+        img{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+        }
+        p{
+            padding-top: 1rem;
+        }
+        .one{
+            font-size: 2.5rem;
+            font-weight: bolder;
+            
+        }
+        .two{
+            font-size: 1.5rem;
+        }
+    }
+}
